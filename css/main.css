@@ -51,7 +51,7 @@ body {
 .height-max {
     height :100vh;
     
-    background:url("../img/car3.jpg");
+    background:url("../img/headerBcg.jpeg");
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -122,7 +122,7 @@ body {
     clip-path: polygon(0% 0,100% 0,100% 100%,0 100%);
 }
 .qustion {
-    background:url("../img/756649819430597.webp") center/cover fixed no-repeat ;
+    background:url("../img/questionBcg.jpeg") center/cover fixed no-repeat ;
 }
 .qustion-gray {
     background: rgba(79, 109, 122, 0.75);
@@ -197,7 +197,7 @@ body {
     opacity: 1;
 }
 .contact {
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/car3.jpg)center/cover fixed no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/headerBcg.jpeg)center/cover fixed no-repeat;
 }
 .contact-input {
     font-size: 1.5rem;
@@ -280,7 +280,7 @@ body {
 
 }
 .customer-img {
-    border: 0.4rem solid --mainWhite;
+    border: 0.4rem solid var(--mainWhite);
 }
 .customer-name {
     color: var(--mainBlue);
@@ -289,7 +289,7 @@ body {
     font-size: 2rem;
     color: var(--mainGray);
 }
-.customer-qoute {
+.customer-quote {
     max-width: 90%;
 }
 .footer {
